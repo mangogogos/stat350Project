@@ -1,0 +1,17 @@
+Variable, Estimate, Std. Error, t-value, Pr(>|t|)
+(Intercept), 1.226841e+02, 3.262112e+01, 3.760879, 1.771041e-04
+Tuition, 2.917480e-04, 4.115023e-05, 7.089827, 2.233775e-12
+MedianDebt, -8.866092e-03, 1.877961e-03, -4.721126, 2.608464e-06
+FederalLoanProportion, -1.324845e+01, 2.928631e+00, -4.523771, 6.649026e-06
+PartTimeProportion, 3.728926e+01, 2.132650e+01, 1.748494, 8.062256e-02
+NumStudents, 1.427097e-03, 2.175743e-04, 6.559124, 7.887633e-11
+CumulativeACT_25, -7.976410e+00, 2.038973e+00, -3.911975, 9.644275e-05
+CumulativeACT_75, -3.397522e+00, 1.214174e+00, -2.798218, 5.217016e-03
+MedianDebt:NumStudents, -5.204117e-08, 1.139727e-08, -4.566109, 5.456086e-06
+MedianDebt:CumulativeACT_25, 6.546689e-04, 1.141825e-04, 5.733532, 1.230565e-08
+MedianDebt:CumulativeACT_75, 2.902575e-04, 7.112980e-05, 4.080673, 4.773536e-05
+FederalLoanProportion:PartTimeProportion, 5.449015e+01, 1.538158e+01, 3.542558, 4.107766e-04
+PartTimeProportion:NumStudents, -1.778983e-03, 3.389121e-04, -5.249100, 1.792753e-07
+PartTimeProportion:CumulativeACT_25, -4.277801e+00, 9.289801e-01, -4.604836, 4.546803e-06
+CumulativeACT_25:CumulativeACT_75, 3.080335e-01, 5.818093e-02, 5.294406, 1.408040e-07
+MedianDebt:CumulativeACT_25:CumulativeACT_75, -2.034075e-05, 3.362523e-06, -6.049253, 1.916663e-09
