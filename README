@@ -1,4 +1,6 @@
  
-Please note that due to its large size, the required SQLite database is not included in this zip. If you are interested in running main.R, please download the dataset from Kaggle at:
+Please note that due to its large size, the required SQLite database is not included in this repo. If you are interested in running main.R, please download the dataset from Kaggle at:
 
 https://www.kaggle.com/kaggle/college-scorecard
+
+Additionally, note that this repo was originally hosted privately on GitLab with the SQLite database included which supports larger files than GitHub does. I could notfind a way to retroactively add a file to Git LFS and so as best I can tell, the only way to add this repo to Github was to remove the .git folder and start again without the commit history on GitHub. Please message me if you are interested in the commit history of this project.
